@@ -109,9 +109,9 @@ function test() {
 function comparison(val) {
   // クリックされたらオブジェクトに通知して、ビューを更新
   if (val > 0) {
-    console.log("selected left");
-  } else if (val < 0 ) {
     console.log("selected right");
+  } else if (val < 0 ) {
+    console.log("selected left");
   } else {
     console.log("selected center");
   }
@@ -140,7 +140,8 @@ function setup() {
     "エーリカ",
     "クドリャフカ",
     "神北小毬",
-    "かんな"
+    "かんな",
+    "ルイズ"
   ];
   var view = new View("left", "center", "right");
   console.log(list);
